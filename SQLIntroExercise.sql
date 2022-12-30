@@ -31,7 +31,7 @@ WHERE firstname LIKE 'J%';
 -- find all Macbooks
 SELECT *
 FROM products
-WHERE Name = 'Macbook'; 
+WHERE Name LIKE '%Macbook%'; 
 -- find all products that are on sale
 SELECT *
 FROM products
